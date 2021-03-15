@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="300.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="github.LukaszSz1.EmailApp.controller.login.LoginWindowController">
+    <Button layoutX="200.0" layoutY="150.0" mnemonicParsing="false" onAction="#loginButtonAction" prefHeight="50.0" prefWidth="100.0" text="Login" />
+    <Label layoutX="20.0" layoutY="55.0" text="Email Address" AnchorPane.leftAnchor="20.0" />
+    <Label layoutX="20.0" layoutY="105.0" text="Password" AnchorPane.leftAnchor="20.0" />
+    <TextField fx:id="emailAddressField" layoutX="125.0" layoutY="50.0" prefHeight="25.0" prefWidth="340.0" />
+    <TextField fx:id="passwordField" layoutX="125.0" layoutY="100.0" prefHeight="25.0" prefWidth="340.0" />
+    <Label fx:id="errorLabel" layoutX="200.0" layoutY="220.0" />
+</AnchorPane>
